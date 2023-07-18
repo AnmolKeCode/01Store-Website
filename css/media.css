@@ -1,0 +1,23 @@
+@media only screen and (max-width:1024px) {
+    .ImglitInfo{
+        height: 150vh;
+    }
+
+    .ImglitInfo::before{
+        background-position: bottom;
+    }
+
+    .ImglitInfo .someInfo{
+        max-width: 80%;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:580px) {}
+
+@media only screen and (max-width:420px) {}
